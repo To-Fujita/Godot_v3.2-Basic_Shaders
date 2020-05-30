@@ -8,7 +8,7 @@ I have created some basic shaders. These shaders are able to mix to any pictures
 [Godot Game Engine](https://godotengine.org/)  
 [Book Of Shaders-Godot](https://github.com/jayaarrgh/BookOfShaders-Godot)  
 
-## 4. License::
+## 4. License:
 MIT  
 
 ## 5. Author:
