@@ -4,9 +4,11 @@ I have created some basic shaders. These shaders are able to mix to any pictures
 
 ## 2. Demo:
 
+###
+
 ## 3. Reference:
-[Godot Game Engine](https://godotengine.org/)  
-[Book Of Shaders-Godot](https://github.com/jayaarrgh/BookOfShaders-Godot)  
+[Godot Game Engine](https://godotengine.org/) : Free and open source 2D and 3D game engine   
+[Book Of Shaders-Godot](https://github.com/jayaarrgh/BookOfShaders-Godot) :  BookOfShaders in Godot Shader Language  
 
 ## 4. License:
 MIT  
