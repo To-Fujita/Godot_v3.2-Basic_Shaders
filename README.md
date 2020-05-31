@@ -12,7 +12,7 @@ These Basic Shaders are composed a base picture at "TextureRect" and a shader on
 
 ## 4. Shaders
 ### (1) Aberration Filter
-
+This is a chromatic abrration filter that is separated color of "Red", "Green" and "Blue".
 ### (2) Average Filter
 
 ### (3) Background Noise Shader
