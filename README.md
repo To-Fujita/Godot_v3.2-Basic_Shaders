@@ -6,6 +6,9 @@ I have created some basic shaders. These shaders are able to mix to any pictures
 [Basic Shaders Demo](https://to-fujita.github.io/Godot_v3.2-Basic_Shaders/Basic_Shaders.html)  
 This Demo is confirmed by Firefox (Ver. 75.0.0/64 bit) and Google Chrome (Ver. 81.0/64 bit) under the condition of Windows 10. However it is not working on the Microsoft Edge.   
 
+## 3. Usage
+![Basic Shader 001](https://to-fujita.github.io/Images/Basic_Shader_001.png "Images for Basic Shader 001")
+
 ## Shaders
 ### (1) Aberration Filter
 
@@ -50,12 +53,12 @@ This shader is based on "Book Of Shaders-Godot" at reference.
 ### (21) Mixture the Edge Detection and the Motion Filter
 
 
-## 3. Reference:
+## 4. Reference:
 [Godot Game Engine](https://godotengine.org/) : Free and open source 2D and 3D game engine   
 [Book Of Shaders-Godot](https://github.com/jayaarrgh/BookOfShaders-Godot) :  BookOfShaders in Godot Shader Language  
 
-## 4. License:
+## 5. License:
 MIT  
 
-## 5. Author:
+## 6. Author:
 [T. Fujita](https://github.com/To-Fujita)
