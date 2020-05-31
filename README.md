@@ -3,48 +3,51 @@
 I have created some basic shaders. These shaders are able to mix to any pictures. Please check out these demonstrations below.  
 
 ## 2. Demo:
+[Basic Shaders Demo](https://to-fujita.github.io/Godot_v3.2-Basic_Shaders/Basic_Shaders.html)  
+This Demo is confirmed by Firefox (Ver. 75.0.0/64 bit) and Google Chrome (Ver. 81.0/64 bit) under the condition of Windows 10. However it is not working on the Microsoft Edge.   
 
-### Aberration Filter
+## Shaders
+### (1) Aberration Filter
 
-### Average Filter
+### (2) Average Filter
 
-### Background Noise Shader
+### (3) Background Noise Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
-### Binary Conversion
+### (4) Binary Conversion
 
-### Default Filter
-This filter is a default filter on Godot Game Engine.
-### Edge Detection
+### (5) Default Filter
+This filter is a default filter on Godot Game Engine. This filter is working under the condition of GLES3.   
+### (6) Edge Detection
 
-### Gaussian Filter
+### (7) Gaussian Filter
 
-### Invert Shader
+### (8) Invert Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
-### Mirage Shader
+### (9) Mirage Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
-### Monochrome Filter
+### (10) Monochrome Filter
 
-### Mosic Filter (Simple)
+### (11) Mosic Filter (Simple)
+This filter is working under the condition of GLES3.  
+### (12) Mosic Filter
+This filter is working under the condition of GLES3.  
+### (13) Motion Filter
 
-### Mosic Filter
+### (14) Negative Filter
 
-### Motion Filter
-
-### Negative Filter
-
-### Noise Shader
+### (15) Noise Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
-### Pixelize Filter
+### (16) Pixelize Filter
 
-### Sepia Filter
+### (17) Sepia Filter
 
-### Whirl Shader
+### (18) Whirl Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
-### Mixture the Binary Filter and the Default Filter
+### (19) Mixture the Binary Filter and the Default Filter
 
-### Mixture the Edge Detection and the Default Filter
+### (20) Mixture the Edge Detection and the Default Filter
 
-### Mixture the Edge Detection and the Motion Filter
+### (21) Mixture the Edge Detection and the Motion Filter
 
 
 ## 3. Reference:
