@@ -12,7 +12,7 @@ These Basic Shaders are composed a base picture at "TextureRect" and a shader on
 
 ## 4. Shaders
 ### (1) Aberration Filter
-This is a chromatic abrration filter that is separated color of "Red", "Green" and "Blue".
+This is a chromatic abrration filter that is separated in its 3 RGB layers.
 ### (2) Average Filter (Mean Filter)
 This filter is simply to replace each pixel value in an image with the average value of its neighbors, including itself.  
 ![Basic Shader 002](https://to-fujita.github.io/Images/Basic_Shader_002.png "Images for Basic Shader 002")
