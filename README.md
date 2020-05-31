@@ -25,36 +25,37 @@ This filter is a default filter on Godot Game Engine. This filter is working und
 ### (6) Edge Detection
 
 ### (7) Gaussian Filter
+This is a gaussian filter based on the figure below.
 ![Basic Shader 003](https://to-fujita.github.io/Images/Basic_Shader_003.png "Images for Basic Shader 003")
 ### (8) Invert Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
 ### (9) Mirage Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
 ### (10) Monochrome Filter
-
+This filter is simply to replace each pixcel value in the monotone value.
 ### (11) Mosic Filter (Simple)
-This filter is working under the condition of GLES3.  
+This filter is working under the condition of GLES3. It is similar to the Pixelize Filter.  
 ### (12) Mosic Filter
-This filter is working under the condition of GLES3.  
+This filter is working under the condition of GLES3. This is added the average in a block based on the "Mosic Filter (Simple)".  
 ### (13) Motion Filter
-This is one of motion filter.
+This is a motion filter based on the figure below.
 ![Basic Shader 004](https://to-fujita.github.io/Images/Basic_Shader_004.png "Images for Basic Shader 004")
 ### (14) Negative Filter
-
+This filter is simply to replace each pixcel value in the subtracted the value from one. 
 ### (15) Noise Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
 ### (16) Pixelize Filter
-
+This filter is simply to replace some pixels in the same value.
 ### (17) Sepia Filter
-
+This filter is to replace each pixcel value in the sepia tone value.
 ### (18) Whirl Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
 ### (19) Mixture the Binary Filter and the Default Filter
-
+This filter is added the Binary Filter based on the Default Filter.
 ### (20) Mixture the Edge Detection and the Default Filter
-
+This filter is added the Edge Detection Filter based on the Default Filter.
 ### (21) Mixture the Edge Detection and the Motion Filter
-
+This filter is added the Edge Detection Filter based on the Motion Filter.
 
 ## 5. Reference:
 [Godot Game Engine](https://godotengine.org/) : Free and open source 2D and 3D game engine   
