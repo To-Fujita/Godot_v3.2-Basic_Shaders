@@ -10,7 +10,7 @@ This Demo is confirmed by Firefox (Ver. 75.0.0/64 bit) and Google Chrome (Ver. 8
 These Basic Shaders are composed a base picture at "TextureRect" and a shader on "ColorRect". You can set any pictures to "TextureRect", then choose a shader by clicking the eye mark. After selected a shader, you can set the position and the size for selected shader by setting the value on "Rect". Some shaders are able to set the parameters by setting the value on "Shader Param" under the "Material".  
 ![Basic Shader 001](https://to-fujita.github.io/Images/Basic_Shader_001.png "Images for Basic Shader 001")
 
-## Shaders
+## 4. Shaders
 ### (1) Aberration Filter
 
 ### (2) Average Filter
@@ -54,12 +54,12 @@ This shader is based on "Book Of Shaders-Godot" at reference.
 ### (21) Mixture the Edge Detection and the Motion Filter
 
 
-## 4. Reference:
+## 5. Reference:
 [Godot Game Engine](https://godotengine.org/) : Free and open source 2D and 3D game engine   
 [Book Of Shaders-Godot](https://github.com/jayaarrgh/BookOfShaders-Godot) :  BookOfShaders in Godot Shader Language  
 
-## 5. License:
+## 6. License:
 MIT  
 
-## 6. Author:
+## 7. Author:
 [T. Fujita](https://github.com/To-Fujita)
