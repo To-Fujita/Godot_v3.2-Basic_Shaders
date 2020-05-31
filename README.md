@@ -19,7 +19,7 @@ This filter is simply to replace each pixel value in an image with the average v
 ### (3) Background Noise Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
 ### (4) Binary Conversion
-
+This filter is also simply to replace each pixcel value in the value of black or white based on the threshold value.
 ### (5) Default Filter
 This filter is a default filter on Godot Game Engine. This filter is working under the condition of GLES3.   
 ### (6) Edge Detection
@@ -37,6 +37,7 @@ This filter is working under the condition of GLES3.
 ### (12) Mosic Filter
 This filter is working under the condition of GLES3.  
 ### (13) Motion Filter
+This is one of motion filter.
 ![Basic Shader 004](https://to-fujita.github.io/Images/Basic_Shader_004.png "Images for Basic Shader 004")
 ### (14) Negative Filter
 
