@@ -10,7 +10,7 @@
 [ext_resource path="res://Shaders/Mosic_Simple.shader" type="Shader" id=8]
 [ext_resource path="res://Shaders/Binary_Default_Mix.shader" type="Shader" id=9]
 [ext_resource path="res://Shaders/BinaryConversion.shader" type="Shader" id=10]
-[ext_resource path="res://Shaders/Edge.shader" type="Shader" id=11]
+[ext_resource path="res://Shaders/Edge_Prewitt.shader" type="Shader" id=11]
 [ext_resource path="res://Shaders/Sepia.shader" type="Shader" id=12]
 [ext_resource path="res://Shaders/Whirl.shader" type="Shader" id=13]
 [ext_resource path="res://Shaders/Background.shader" type="Shader" id=14]
@@ -52,7 +52,7 @@ shader_param/_size = 3.0
 [sub_resource type="ShaderMaterial" id=6]
 shader = ExtResource( 11 )
 shader_param/_size = 10.0
-shader_param/_threshold = 10.0
+shader_param/_threshold = 16.0
 
 [sub_resource type="ShaderMaterial" id=7]
 shader = ExtResource( 37 )
@@ -191,6 +191,9 @@ margin_left = 100.0
 margin_top = 100.0
 margin_right = 1000.0
 margin_bottom = 700.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="ColorRect_Average" type="ColorRect" parent="TextureRect"]
 visible = false
@@ -390,7 +393,6 @@ __meta__ = {
 }
 
 [node name="ColorRect_Edge+Motion" type="ColorRect" parent="TextureRect"]
-visible = false
 material = SubResource( 21 )
 margin_left = 100.0
 margin_top = 100.0
@@ -414,9 +416,9 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -445.0
+margin_left = -536.5
 margin_top = -262.0
-margin_right = 445.0
+margin_right = 536.5
 margin_bottom = 262.0
 custom_fonts/title_font = SubResource( 23 )
 window_title = "Select the Shaders"
@@ -429,10 +431,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -420.0
-margin_top = -217.5
-margin_right = 420.0
-margin_bottom = 217.5
+margin_left = -515.0
+margin_top = -242.0
+margin_right = 515.0
+margin_bottom = 242.0
 custom_constants/vseparation = 12
 custom_constants/hseparation = 20
 columns = 3
@@ -448,14 +450,14 @@ text = "Aberration"
 
 [node name="Button2" type="Button" parent="WindowDialog/GridContainer"]
 margin_left = 299.0
-margin_right = 559.0
+margin_right = 723.0
 margin_bottom = 50.0
 custom_fonts/font = SubResource( 25 )
 text = "Average"
 
 [node name="Button3" type="Button" parent="WindowDialog/GridContainer"]
-margin_left = 579.0
-margin_right = 842.0
+margin_left = 743.0
+margin_right = 1030.0
 margin_bottom = 50.0
 custom_fonts/font = SubResource( 26 )
 text = "Background"
@@ -470,15 +472,15 @@ text = "Binary"
 [node name="Button5" type="Button" parent="WindowDialog/GridContainer"]
 margin_left = 299.0
 margin_top = 62.0
-margin_right = 559.0
+margin_right = 723.0
 margin_bottom = 112.0
 custom_fonts/font = SubResource( 28 )
-text = "Default"
+text = "Default(GLES3)"
 
 [node name="Button6" type="Button" parent="WindowDialog/GridContainer"]
-margin_left = 579.0
+margin_left = 743.0
 margin_top = 62.0
-margin_right = 842.0
+margin_right = 1030.0
 margin_bottom = 112.0
 custom_fonts/font = SubResource( 29 )
 text = "Edge"
@@ -493,15 +495,15 @@ text = "Gaussian"
 [node name="Button8" type="Button" parent="WindowDialog/GridContainer"]
 margin_left = 299.0
 margin_top = 124.0
-margin_right = 559.0
+margin_right = 723.0
 margin_bottom = 174.0
 custom_fonts/font = SubResource( 29 )
 text = "Invert"
 
 [node name="Button9" type="Button" parent="WindowDialog/GridContainer"]
-margin_left = 579.0
+margin_left = 743.0
 margin_top = 124.0
-margin_right = 842.0
+margin_right = 1030.0
 margin_bottom = 174.0
 custom_fonts/font = SubResource( 29 )
 text = "Mirage"
@@ -516,18 +518,18 @@ text = "Monochrome"
 [node name="Button11" type="Button" parent="WindowDialog/GridContainer"]
 margin_left = 299.0
 margin_top = 186.0
-margin_right = 559.0
+margin_right = 723.0
 margin_bottom = 236.0
 custom_fonts/font = SubResource( 29 )
-text = "Mosic Simple"
+text = "Mosic Simple(GLES3)"
 
 [node name="Button12" type="Button" parent="WindowDialog/GridContainer"]
-margin_left = 579.0
+margin_left = 743.0
 margin_top = 186.0
-margin_right = 842.0
+margin_right = 1030.0
 margin_bottom = 236.0
 custom_fonts/font = SubResource( 29 )
-text = "Mosic"
+text = "Mosic(GLES3)"
 
 [node name="Button13" type="Button" parent="WindowDialog/GridContainer"]
 margin_top = 248.0
@@ -539,15 +541,15 @@ text = "Motion"
 [node name="Button14" type="Button" parent="WindowDialog/GridContainer"]
 margin_left = 299.0
 margin_top = 248.0
-margin_right = 559.0
+margin_right = 723.0
 margin_bottom = 298.0
 custom_fonts/font = SubResource( 29 )
 text = "Negative"
 
 [node name="Button15" type="Button" parent="WindowDialog/GridContainer"]
-margin_left = 579.0
+margin_left = 743.0
 margin_top = 248.0
-margin_right = 842.0
+margin_right = 1030.0
 margin_bottom = 298.0
 custom_fonts/font = SubResource( 29 )
 text = "Noise"
@@ -562,15 +564,15 @@ text = "Pixcelize"
 [node name="Button17" type="Button" parent="WindowDialog/GridContainer"]
 margin_left = 299.0
 margin_top = 310.0
-margin_right = 559.0
+margin_right = 723.0
 margin_bottom = 360.0
 custom_fonts/font = SubResource( 29 )
 text = "Sepia"
 
 [node name="Button18" type="Button" parent="WindowDialog/GridContainer"]
-margin_left = 579.0
+margin_left = 743.0
 margin_top = 310.0
-margin_right = 842.0
+margin_right = 1030.0
 margin_bottom = 360.0
 custom_fonts/font = SubResource( 29 )
 text = "Whirl"
@@ -585,15 +587,15 @@ text = "Binary+Defalt"
 [node name="Button20" type="Button" parent="WindowDialog/GridContainer"]
 margin_left = 299.0
 margin_top = 372.0
-margin_right = 559.0
+margin_right = 723.0
 margin_bottom = 422.0
 custom_fonts/font = SubResource( 29 )
 text = "Edge+Defalt"
 
 [node name="Button21" type="Button" parent="WindowDialog/GridContainer"]
-margin_left = 579.0
+margin_left = 743.0
 margin_top = 372.0
-margin_right = 842.0
+margin_right = 1030.0
 margin_bottom = 422.0
 custom_fonts/font = SubResource( 29 )
 text = "Edge+Motion"
@@ -609,13 +611,13 @@ text = "Change Texture"
 [node name="Button_Dummy" type="Button" parent="WindowDialog/GridContainer"]
 margin_left = 299.0
 margin_top = 434.0
-margin_right = 559.0
+margin_right = 723.0
 margin_bottom = 484.0
 
 [node name="Button_Org" type="Button" parent="WindowDialog/GridContainer"]
-margin_left = 579.0
+margin_left = 743.0
 margin_top = 434.0
-margin_right = 842.0
+margin_right = 1030.0
 margin_bottom = 484.0
 custom_fonts/font = SubResource( 31 )
 custom_colors/font_color = Color( 0.505882, 0.972549, 0.0392157, 1 )
