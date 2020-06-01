@@ -14,14 +14,14 @@ These Basic Shaders are composed a base picture at "TextureRect" and a shader on
 ### (1) Aberration Filter
 This is a chromatic abrration filter that is separated in its 3 RGB layers.
 ### (2) Average Filter (Mean Filter)
-This filter is simply to replace each pixel value in an image with the average value of its neighbors, including itself.  
+This is a blur filter that is simply to replace each pixel value in an image with the average value of its neighbors, including itself.  
 ![Basic Shader 002](https://to-fujita.github.io/Images/Basic_Shader_002.png "Images for Basic Shader 002")
 ### (3) Background Noise Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
 ### (4) Binary Conversion
 This filter is also simply to replace each pixcel value in the value of black or white based on the threshold value.
 ### (5) Default Filter
-This filter is a default filter on Godot Game Engine. This filter is working under the condition of GLES3.   
+This filter is a default blur filter on Godot Game Engine. This filter is working under the condition of GLES3.   
 ### (6) Edge Detection
 This Edge Detection Filter is created by based on "Prewitt Filter" below. The "Sobel Filter" is also stored in the Shaders folder.
 ![Basic Shader 005](https://to-fujita.github.io/Images/Basic_Shader_005.png "Images for Basic Shader 005")
@@ -39,7 +39,7 @@ This filter is working under the condition of GLES3. It is similar to the Pixeli
 ### (12) Mosic Filter
 This filter is working under the condition of GLES3. This is added the average in a block to the "Mosic Filter (Simple)" above.  
 ### (13) Motion Filter
-This is one of motion filter. In this case, the filter is based on the figure below.
+This is one of motion filter. In this case, this blur filter is based on the figure below.
 ![Basic Shader 004](https://to-fujita.github.io/Images/Basic_Shader_004.png "Images for Basic Shader 004")
 ### (14) Negative Filter
 This filter is simply to replace each pixcel value in the subtracted the value from one. 
@@ -52,9 +52,9 @@ This filter is to replace each pixcel value in the sepia tone value.
 ### (18) Whirl Shader
 This shader is based on "Book Of Shaders-Godot" at reference.  
 ### (19) Mixture the Binary Filter and the Default Filter
-This filter is added the Binary Filter based on the Default Filter.
+This filter is added the Binary Filter based on the Default Blur Filter.
 ### (20) Mixture the Edge Detection and the Default Filter
-This filter is added the Edge Detection Filter based on the Default Filter.
+This filter is added the Edge Detection Filter based on the Default Blur Filter.
 ### (21) Mixture the Edge Detection and the Motion Filter
 This filter is added the Edge Detection Filter based on the Motion Filter.
 
