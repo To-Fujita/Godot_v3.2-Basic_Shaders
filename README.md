@@ -37,7 +37,7 @@ This filter is simply to replace each pixcel value in the monotone value.
 ### (11) Mosic Filter (Simple)
 This filter is working under the condition of GLES3. It is similar to the Pixelize Filter.  
 ### (12) Mosic Filter
-This filter is working under the condition of GLES3. This is added the average in a block based on the "Mosic Filter (Simple)".  
+This filter is working under the condition of GLES3. This is added the average in a block to the "Mosic Filter (Simple)" above.  
 ### (13) Motion Filter
 This is a motion filter based on the figure below.
 ![Basic Shader 004](https://to-fujita.github.io/Images/Basic_Shader_004.png "Images for Basic Shader 004")
