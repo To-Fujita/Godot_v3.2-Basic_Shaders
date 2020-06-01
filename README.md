@@ -1,6 +1,6 @@
 # Godot_v3.2-Basic_Shaders
 ## 1. Description:
-I have created some basic shaders. These shaders are able to mix to any pictures. Please check out these demonstrations below.  
+I have created some basic shaders. These shaders are able to mix to any pictures. Please check out the usage below.  
 
 ## 2. Demo:
 [Basic Shaders Demo](https://to-fujita.github.io/Godot_v3.2-Basic_Shaders/Basic_Shaders.html)  
