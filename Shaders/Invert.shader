@@ -17,5 +17,4 @@ void fragment() {
 	
 	//Set the color
 	COLOR = final_color;
-	
 }
