@@ -23,7 +23,8 @@ This filter is also simply to replace each pixcel value in the value of black or
 ### (5) Default Filter
 This filter is a default filter on Godot Game Engine. This filter is working under the condition of GLES3.   
 ### (6) Edge Detection
-
+This Edge Detection Filter is created by based on "Prewitt Filter" below. The "Sobel Filter" is also stored in the Shaders folder.
+![Basic Shader 005](https://to-fujita.github.io/Images/Basic_Shader_005.png "Images for Basic Shader 005")
 ### (7) Gaussian Filter
 This is a gaussian filter based on the figure below.
 ![Basic Shader 003](https://to-fujita.github.io/Images/Basic_Shader_003.png "Images for Basic Shader 003")
