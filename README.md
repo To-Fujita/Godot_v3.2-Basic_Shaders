@@ -39,7 +39,7 @@ This filter is working under the condition of GLES3. It is similar to the Pixeli
 ### (12) Mosic Filter
 This filter is working under the condition of GLES3. This is added the average in a block to the "Mosic Filter (Simple)" above.  
 ### (13) Motion Filter
-This is a motion filter based on the figure below.
+This is one of motion filter. In this case, the filter is based on the figure below.
 ![Basic Shader 004](https://to-fujita.github.io/Images/Basic_Shader_004.png "Images for Basic Shader 004")
 ### (14) Negative Filter
 This filter is simply to replace each pixcel value in the subtracted the value from one. 
