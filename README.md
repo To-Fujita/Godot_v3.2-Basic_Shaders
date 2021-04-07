@@ -4,7 +4,7 @@ I have created some basic shaders. These shaders are able to mix to any pictures
 
 ## 2. Demo:
 [Basic Shaders Demo](https://to-fujita.github.io/Godot_v3.2-Basic_Shaders/Basic_Shaders.html)  
-This Demo is confirmed by Firefox (Ver. 75.0.0/64 bit) and Google Chrome (Ver. 81.0/64 bit) under the condition of Windows 10. However it is not working on the Microsoft Edge.   
+This Demo is confirmed by the Microsoft Edge (ver. 89.0.774.68/64 bit), the Firefox (Ver. 75.0.0/64 bit) and the Google Chrome (Ver. 81.0/64 bit) under the condition of Windows 10.  
 
 ## 3. Usage
 These Basic Shaders are composed a base picture at "TextureRect" and a shader on "ColorRect". You can set any pictures to "TextureRect", then choose a shader by clicking the eye mark. After selected a shader, you can set the position and the size for selected shader by setting the value in "Rect". Some shaders are able to set the parameters by setting the value in "Shader Param" under the "Material".  
