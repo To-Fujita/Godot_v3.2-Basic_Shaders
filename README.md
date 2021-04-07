@@ -1,8 +1,8 @@
 # Godot_v3.2-Basic_Shaders
-## 1. Description:
+## 1. Description
 I have created some basic shaders. These shaders are able to mix to any pictures. Please check out the usage below.  
 
-## 2. Demo:
+## 2. Demo
 [Basic Shaders Demo](https://to-fujita.github.io/Godot_v3.2-Basic_Shaders/Basic_Shaders.html)  
 This Demo is confirmed by the Microsoft Edge (ver. 89.0.774.68/64 bit), the Firefox (Ver. 75.0.0/64 bit) and the Google Chrome (Ver. 81.0/64 bit) under the condition of Windows 10.  
 
@@ -58,12 +58,12 @@ This filter is added the Edge Detection Filter based on the Default Blur Filter.
 ### (21) Mixture the Edge Detection and the Motion Filter
 This filter is added the Edge Detection Filter based on the Motion Filter.
 
-## 5. Reference:
+## 5. Reference
 [Godot Game Engine](https://godotengine.org/) : Free and open source 2D and 3D game engine   
 [Book Of Shaders-Godot](https://github.com/jayaarrgh/BookOfShaders-Godot) :  BookOfShaders in Godot Shader Language  
 
-## 6. License:
+## 6. License
 MIT  
 
-## 7. Author:
+## 7. Author
 [T. Fujita](https://github.com/To-Fujita)
