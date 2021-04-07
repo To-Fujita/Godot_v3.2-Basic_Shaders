@@ -61,6 +61,8 @@ This filter is added the Edge Detection Filter based on the Motion Filter.
 ## 5. Reference
 [Godot Game Engine](https://godotengine.org/) : Free and open source 2D and 3D game engine   
 [Book Of Shaders-Godot](https://github.com/jayaarrgh/BookOfShaders-Godot) :  BookOfShaders in Godot Shader Language  
+[Godot_v3.2-Cube_Characters](https://github.com/To-Fujita/Godot_v3.2-Cube_Characters) : How to create the 3D cube characters by Godot Engine.  
+[Godot_v3.2-Sokoban_Cube](https://github.com/To-Fujita/Godot_v3.2-Sokoban_Cube) : The demo for the sokoban type of game with 3D cube characterts by Godot Engine.   
 
 ## 6. License
 MIT  
